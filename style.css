@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: aqua;
+}
+.container{
+    margin:60px auto;
+    text-align: center;
+}
+input{
+    padding: 7px;
+    
+    outline: none;
+}
+button{
+    padding: 7px;   
+}
+#newlist{
+   list-style: none;
+   width: 700px;
+   margin: auto;
+
+}
+#newlist li{
+    position:relative;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 2px;
+    padding-right: 30px;
+    text-align: justify;
+    margin-top: 10px;
+
+}
+li i{
+    position:absolute;
+    top: auto;
+    right: 10px;
+    top: 10px;   
+}
+.ok{
+    text-decoration: line-through;
+    color: black;
+    cursor: pointer;
+    background-color: blueviolet !important;
+}
